@@ -1,11 +1,11 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import React, { useRef } from 'react'
+import emailjs from '@emailjs/browser'
 
 function App() {
-  const form = useRef();
+  const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs
       .sendForm(
@@ -16,14 +16,14 @@ function App() {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          alert("이메일이 정상적으로 발송되었습니다.");
+          console.log(result.text)
+          alert('이메일이 정상적으로 발송되었습니다.')
         },
         (error) => {
-          console.log(error.text);
+          console.log(error.text)
         }
-      );
-  };
+      )
+  }
 
   return (
     <>
@@ -43,7 +43,7 @@ function App() {
         <button>이메일 전송</button>
       </form>
     </>
-  );
+  )
 }
 
-export default App;
+export default App
