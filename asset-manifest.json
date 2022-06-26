@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-mail/static/css/main.2acd2c82.css",
+    "main.js": "/react-mail/static/js/main.954d3a61.js",
+    "index.html": "/react-mail/index.html",
+    "main.2acd2c82.css.map": "/react-mail/static/css/main.2acd2c82.css.map",
+    "main.954d3a61.js.map": "/react-mail/static/js/main.954d3a61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2acd2c82.css",
+    "static/js/main.954d3a61.js"
+  ]
+}
